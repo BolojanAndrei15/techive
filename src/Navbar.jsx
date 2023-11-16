@@ -4,14 +4,14 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header class="pb-6 bg-white z-50 lg:pb-0 sticky top-0 border-b-2  border-slate-50">
+    <header class=" bg-white z-50 lg:pb-0 sticky top-0 border-b-2  border-slate-50">
       <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <nav class="flex items-center justify-between h-16 lg:h-20">
           <div class="flex-shrink-0">
             <a href="#" title="" class="flex">
               <img
-                class="w-auto h-8 lg:h-10"
-                src="https://cdn.rareblocks.xyz/collection/celebration/images/logo.svg"
+                class="w-auto h-14 lg:h-20"
+                src="https://cdn.discordapp.com/attachments/382552813504561152/1174770002570792990/logo_hive_tech.png?ex=6568ccd2&is=655657d2&hm=0611a44107c3d7e10238156391e2133a8cf1e56634c986e39d1bb156289173a5&"
                 alt=""
               />
             </a>
