@@ -1,3 +1,11 @@
+import {
+  Brain,
+  MessagesSquare,
+  PhoneCall,
+  ShieldCheck,
+  Speech,
+  Zap,
+} from "lucide-react";
 import React from "react";
 
 function WorkProcces() {
@@ -28,7 +36,10 @@ function WorkProcces() {
           <div className="relative grid grid-cols-1 text-center gap-y-12 md:grid-cols-3 gap-x-12">
             <div>
               <div className="flex items-center justify-center w-16 h-16 mx-auto bg-fuchsia-100 border-2 border-fuchsia-200 rounded-full shadow">
-                <span className="text-xl font-semibold text-gray-700"> 1 </span>
+                <span className="text-xl font-semibold text-gray-700">
+                  {" "}
+                  <PhoneCall className="text-fuchsia-300" />{" "}
+                </span>
               </div>
               <h3 className="mt-6 text-xl font-semibold leading-tight text-black md:mt-10">
                 Consultanță Inițială
@@ -42,7 +53,9 @@ function WorkProcces() {
 
             <div>
               <div className="flex items-center justify-center w-16 h-16 mx-auto bg-purple-100 border-2 border-purple-200 rounded-full shadow">
-                <span className="text-xl font-semibold text-gray-700"> 2 </span>
+                <span className="text-xl font-semibold text-gray-700">
+                  <Brain className="text-purple-400" />{" "}
+                </span>
               </div>
               <h3 className="mt-6 text-xl font-semibold leading-tight text-black md:mt-10">
                 Brainstorming și Planificare:
@@ -56,7 +69,10 @@ function WorkProcces() {
 
             <div>
               <div className="flex items-center justify-center w-16 h-16 mx-auto bg-violet-100 border-2 border-violet-200 rounded-full shadow">
-                <span className="text-xl font-semibold text-gray-700"> 3 </span>
+                <span className="text-xl font-semibold text-gray-700">
+                  {" "}
+                  <Zap className="text-violet-400" />{" "}
+                </span>
               </div>
               <h3 className="mt-6 text-xl font-semibold leading-tight text-black md:mt-10">
                 Dezvoltare și Iterație
@@ -70,7 +86,10 @@ function WorkProcces() {
 
             <div>
               <div className="flex items-center justify-center w-16 h-16 mx-auto bg-indigo-100 border-2 border-indigo-200 rounded-full shadow">
-                <span className="text-xl font-semibold text-gray-700"> 4 </span>
+                <span className="text-xl font-semibold text-gray-700">
+                  {" "}
+                  <ShieldCheck className="text-indigo-400" />{" "}
+                </span>
               </div>
               <h3 className="mt-6 text-xl font-semibold leading-tight text-black md:mt-10">
                 Testare și Perfecționare
@@ -83,7 +102,10 @@ function WorkProcces() {
             </div>
             <div>
               <div className="flex items-center justify-center w-16 h-16 mx-auto bg-blue-100 border-2 border-blue-200 rounded-full shadow">
-                <span className="text-xl font-semibold text-gray-700"> 5 </span>
+                <span className="text-xl font-semibold text-gray-700">
+                  {" "}
+                  <Speech className="text-blue-400" />
+                </span>
               </div>
               <h3 className="mt-6 text-xl font-semibold leading-tight text-black md:mt-10">
                 Livrare și Suport Continuu
@@ -96,7 +118,10 @@ function WorkProcces() {
             </div>
             <div>
               <div className="flex items-center justify-center w-16 h-16 mx-auto bg-sky-100 border-2 border-sky-200 rounded-full shadow">
-                <span className="text-xl font-semibold text-gray-700"> 6 </span>
+                <span className="text-xl font-semibold text-gray-700">
+                  {" "}
+                  <MessagesSquare className="text-sky-400" />{" "}
+                </span>
               </div>
               <h3 className="mt-6 text-xl font-semibold leading-tight text-black md:mt-10">
                 Feedback și Evoluție

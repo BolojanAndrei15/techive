@@ -32,32 +32,34 @@ const Services = () => {
           <ServiceCard
             title="Web Development"
             details="Portofoliul nostru de servicii web include crearea de site-uri de prezentare remarcabile, aplicații web personalizate adaptate nevoilor tale și magazine online scalabile. Indiferent de cerințele tale, suntem aici pentru a transforma conceptele tale într-o experiență digitală ."
-            icon={<SiWebtoon className="h-20 w-20" />}
+            icon={<SiWebtoon className="h-20 w-20 text-blue-500" />}
           />
           <ServiceCard
             title="Mobile Development"
             details="Expertiza noastră în dezvoltarea aplicațiilor mobile îți oferă acces la soluții software inovatoare și adaptate dispozitivelor mobile. Creăm aplicații mobile pentru diverse platforme, asigurându-ne că afacerea ta este la îndemâna utilizatorilor din întreaga lume."
-            icon={<TbDeviceMobileCode className="h-20 w-20" />}
+            icon={<TbDeviceMobileCode className="h-20 w-20 text-violet-500" />}
           />
           <ServiceCard
             title="Social Media Marketing"
             details="Creează o prezență puternică și autentică pe platformele de socializare cu ajutorul serviciilor noastre de marketing. Strategiile noastre experte în social media te vor ajuta să-ți extinzi audiența, să creezi conținut relevant și să crești angajamentul cu clienții."
-            icon={<TiSocialAtCircular className="h-20 w-20" />}
+            icon={<TiSocialAtCircular className="h-20 w-20 text-indigo-500" />}
           />
           <ServiceCard
             title="Digital Upgrade"
             details="Oferim consultanță cuprinzătoare în transformarea digitală a afacerii tale. Echipa noastră de experți te va ghida în adoptarea tehnologiilor de vârf și în implementarea strategiilor digitale pentru a-ți crește eficiența și performanța în mediul online"
-            icon={<MdUpgrade className="h-20 w-20" />}
+            icon={<MdUpgrade className="h-20 w-20 text-sky-500" />}
           />
           <ServiceCard
             title="Graphic Design"
             details="De la designul de brand și promovare până la ilustrații personalizate și animații grafice, investim pasiune și talent în fiecare proiect. Indiferent dacă ai nevoie de un logo distinctiv, materiale promoționale atrăgătoare sau conținut vizual care să reflecte esența și mesajul tău"
-            icon={<CgIfDesign className="h-20 w-20" />}
+            icon={<CgIfDesign className="h-20 w-20 text-blue-500" />}
           />
           <ServiceCard
             title=" Conținut Multimedia"
             details="De la conținutul multimedia captivant și prezentări interactive până la materiale educaționale și video-uri promoționale, oferim creație de conținut multimedia care să impresioneze și să angajeze audiența ta pentru un scale-up care să aducă profit garantat"
-            icon={<MdOutlineVideoCameraBack className="w-20 h-20" />}
+            icon={
+              <MdOutlineVideoCameraBack className="w-20 h-20 text-indigo-500" />
+            }
           />
         </div>
       </div>
