@@ -13,8 +13,10 @@ function Footer() {
             />
 
             <p className="text-base leading-relaxed text-gray-600 mt-7">
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-              amet sint. Velit officia consequat duis enim velit mollit.
+              Contactează-ne pentru orice întrebări sau propuneri - suntem aici
+              pentru a transforma ideile tale în proiecte de succes. Urmează-ne
+              pe rețelele de socializare sau abonează-te la newsletter pentru a
+              fi la curent cu ultimele noutăți și proiecte.
             </p>
 
             <ul className="flex items-center space-x-3 mt-9">
@@ -96,7 +98,7 @@ function Footer() {
 
           <div>
             <p className="text-sm font-semibold tracking-widest text-gray-400 uppercase">
-              Company
+              Companie
             </p>
 
             <ul className="mt-6 space-y-4">
@@ -107,7 +109,7 @@ function Footer() {
                   className="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
                 >
                   {" "}
-                  About{" "}
+                  Despre{" "}
                 </a>
               </li>
 
@@ -118,7 +120,7 @@ function Footer() {
                   className="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
                 >
                   {" "}
-                  Features{" "}
+                  Proiecte{" "}
                 </a>
               </li>
 
@@ -129,7 +131,7 @@ function Footer() {
                   className="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
                 >
                   {" "}
-                  Works{" "}
+                  Servicii{" "}
                 </a>
               </li>
 
@@ -139,8 +141,7 @@ function Footer() {
                   title=""
                   className="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
                 >
-                  {" "}
-                  Career{" "}
+                  Contact
                 </a>
               </li>
             </ul>
@@ -170,7 +171,7 @@ function Footer() {
                   className="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
                 >
                   {" "}
-                  Delivery Details{" "}
+                  Termeni și condiții{" "}
                 </a>
               </li>
 
@@ -181,18 +182,7 @@ function Footer() {
                   className="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
                 >
                   {" "}
-                  Terms & Conditions{" "}
-                </a>
-              </li>
-
-              <li>
-                <a
-                  href="#"
-                  title=""
-                  className="flex text-base text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
-                >
-                  {" "}
-                  Privacy Policy{" "}
+                  Politică de confidențialitate{" "}
                 </a>
               </li>
             </ul>
@@ -200,7 +190,7 @@ function Footer() {
 
           <div className="col-span-2 md:col-span-1 lg:col-span-2 lg:pl-8">
             <p className="text-sm font-semibold tracking-widest text-gray-400 uppercase">
-              Subscribe to newsletter
+              Vrei să primești oferte personalizate?
             </p>
 
             <form action="#" method="POST" className="mt-6">
@@ -212,7 +202,7 @@ function Footer() {
                   type="email"
                   name="email"
                   id="email"
-                  placeholder="Enter your email"
+                  placeholder="Introdu adresa de email"
                   className="block w-full p-4 text-black placeholder-gray-500 transition-all duration-200 bg-white border border-gray-200 rounded-md focus:outline-none focus:border-blue-600 caret-blue-600"
                 />
               </div>
@@ -221,7 +211,7 @@ function Footer() {
                 type="submit"
                 className="inline-flex items-center justify-center px-6 py-4 mt-3 font-semibold text-white transition-all duration-200 bg-blue-600 rounded-md hover:bg-blue-700 focus:bg-blue-700"
               >
-                Subscribe
+                Abonează-te newsletter-ului
               </button>
             </form>
           </div>

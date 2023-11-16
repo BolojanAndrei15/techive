@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 
 function Navbar() {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
     <header class="pb-6 bg-white z-50 lg:pb-0 sticky top-0 border-b-2  border-slate-50">
       <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
@@ -16,6 +18,7 @@ function Navbar() {
           </div>
 
           <button
+            onClick={() => setIsOpen(!isOpen)}
             type="button"
             class="inline-flex p-2 text-black transition-all duration-200 rounded-md lg:hidden focus:bg-gray-100 hover:bg-gray-100"
           >
@@ -57,7 +60,7 @@ function Navbar() {
               class="text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
             >
               {" "}
-              Features{" "}
+              Acasă{" "}
             </a>
 
             <a
@@ -66,7 +69,7 @@ function Navbar() {
               class="text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
             >
               {" "}
-              Solutions{" "}
+              Servicii{" "}
             </a>
 
             <a
@@ -74,8 +77,7 @@ function Navbar() {
               title=""
               class="text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
             >
-              {" "}
-              Resources{" "}
+              Proiecte
             </a>
 
             <a
@@ -83,8 +85,7 @@ function Navbar() {
               title=""
               class="text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
             >
-              {" "}
-              Pricing{" "}
+              Despre
             </a>
           </div>
 
@@ -95,20 +96,24 @@ function Navbar() {
             role="button"
           >
             {" "}
-            Get started now{" "}
+            Începe Colaborarea!{" "}
           </a>
         </nav>
 
-        <nav class="pt-4 pb-6 bg-white border border-gray-200 rounded-md shadow-md lg:hidden">
+        <nav
+          class={`${
+            isOpen ? "flex flex-col" : "hidden"
+          } pt-4 pb-6 bg-white border border-gray-200 rounded-md shadow-md lg:hidden`}
+        >
           <div class="flow-root">
-            <div class="flex flex-col px-6 -my-2 space-y-1">
+            <div class="flex flex-col px-6 my-2 space-y-1">
               <a
                 href="#"
                 title=""
                 class="inline-flex py-2 text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
               >
                 {" "}
-                Features{" "}
+                Acasă{" "}
               </a>
 
               <a
@@ -117,7 +122,7 @@ function Navbar() {
                 class="inline-flex py-2 text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
               >
                 {" "}
-                Solutions{" "}
+                Servicii{" "}
               </a>
 
               <a
@@ -126,7 +131,7 @@ function Navbar() {
                 class="inline-flex py-2 text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
               >
                 {" "}
-                Resources{" "}
+                Proiecte{" "}
               </a>
 
               <a
@@ -135,7 +140,7 @@ function Navbar() {
                 class="inline-flex py-2 text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
               >
                 {" "}
-                Pricing{" "}
+                Despre{" "}
               </a>
             </div>
           </div>
@@ -148,7 +153,7 @@ function Navbar() {
               role="button"
             >
               {" "}
-              Get started now{" "}
+              Contactează-ne{" "}
             </a>
           </div>
         </nav>
