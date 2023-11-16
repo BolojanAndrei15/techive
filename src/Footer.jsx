@@ -2,15 +2,18 @@ import React from "react";
 
 function Footer() {
   return (
-    <section className="py-10 bg-gray-50 sm:pt-16 lg:pt-24">
+    <section className="py-10 bg-gray-100 sm:pt-16 lg:pt-24">
       <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
         <div className="grid grid-cols-2 md:col-span-3 lg:grid-cols-6 gap-y-16 gap-x-12">
           <div className="col-span-2 md:col-span-3 lg:col-span-2 lg:pr-8">
-            <img
-              className="w-auto h-9"
-              src="https://cdn.rareblocks.xyz/collection/celebration/images/logo.svg"
-              alt=""
-            />
+            <div className="flex items-center">
+              <img
+                className="w-16 h-16"
+                src="https://cdn.discordapp.com/attachments/382552813504561152/1174770002570792990/logo_hive_tech.png?ex=6568ccd2&is=655657d2&hm=0611a44107c3d7e10238156391e2133a8cf1e56634c986e39d1bb156289173a5&"
+                alt=""
+              />
+              <h1 className="text-2xl font-bold">TecHive</h1>
+            </div>
 
             <p className="text-base leading-relaxed text-gray-600 mt-7">
               Contactează-ne pentru orice întrebări sau propuneri - suntem aici
@@ -220,7 +223,7 @@ function Footer() {
         <hr className="mt-16 mb-10 border-gray-200" />
 
         <p className="text-sm text-center text-gray-600">
-          © Copyright 2021, All Rights Reserved by Postcraft
+          © Copyright 2023, All Rights Reserved by TecHive
         </p>
       </div>
     </section>
